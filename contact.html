@@ -1,77 +1,99 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<!--CSS-->
-<link rel="stylesheet" href="application.css">
-<!-- Czcionka -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">">
-<!-- Favicon -->
-<link rel="shortcut icon" href="" type="image">
-
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="application.css">
+    <!-- Czcionka -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="icon_café_favicon.png" type="image">
 </head>
+
 <body>
-   
- <header> <!-- Nagłówek -->
-    <header class="background-grey">
-        <img src="full_logo_white.png" alt="logo Mr.Coffee">
 
-          <!-- Menu w nagłówku-->
+    <!-- Nagłówek -->
+    <header>
         <nav>
-            <a class="menu active" href="#">Home</a>
-            <a class="menu" href="#">About Us</a>
-            <a class="menu" href="#">Contact Us</a>
-        </nav>
-    </header> 
+            <ul>
+                <li><a href="#"><img class="image" src="full_logo_white.png" alt="logo Mr.Coffee"></a></li>
 
-        <!-- Sekcje -->
-        <div id="wrapper">
-        <section class="section1.1">
+
+                <!-- Menu w nagłówku-->
+                <ul class="menu">
+                    <li class="lista"><a href="#">Home</a></li>
+                    <li class="lista"><a href="#">About Us</a></li>
+                    <li class="lista"><a href="#">Contact Us</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sekcje -->
+    <div id="wrapper">
+        <section class="section1_1">
             <p>
-        
-            <center>
-                <img src="logo_dark.png" alt="logo">
-                </center>
+                <div class="row justify-content-center">
+                    <div class="col-5">
+                        <center><img src="logo_mrcoffee.png" alt="logo"></center>
+                    </div>
+                </div>
             </p>
         </section>
-        <section class="section3.2">
-            <center><h2>On vous attend !</h2></center>
+
+        <section class="section3_2">
+            <center>
+                <h2>On vous attend !</h2>
+            </center>
 
             <article>
+                <strong>
+                    <p>
+                        Mr.Coffee
+                    </p>
+                </strong> </article>
+            <article>
+                <div>15 place Jules Guesde</div>
+                <div>75006 Paris</div>
+            </article>
+            <article>
                 <p>
-                Mr.Coffee
-                15 place Jules Guesde
-                75006 Paris
-                </p>
-                <p>
-                    Tel : +33 9 46 25 78 45
-                    Mail : contact@mr-coffee.com
+                    <div>Tel : +33 9 46 25 78 45</div>
+                    <div>Mail : contact@mr-coffee.com</div>
                 </p>
             </article>
         </section>
 
-        <section class="section3.3">
-            <img src="carte_contact.png" alt="mapa"
-        </section>
-                <!-- Footer -->
- <footer class="background-grey">
-    <img src="logo_blanc.png" alt="logo Mr.Coffee">
-    <center>
-        <p>Suivez nous sur les réseaux sociaux !</p>
-        <p>
-        <img src="logo_linkedin.png" alt="linkedin">
-        <img src="logo_twitter.png" alt="twitter">
-        <img src="logo_facebook.png" alt="facebook">
-    </center>
-    </p>
-</div>
- </footer> 
-
+        <section class="section3_3">
+            <center><img src="carte_contact.png" alt="mapa" </center> </section> </div> <!-- Footer -->
+                <footer>
+                    <div class="container4">
+                        <div class="white-logo-mrcoffee">
+                            <img id="logo-white-cafe" src="logo_blanc.png" alt="white-logo-MR-COFFEE"></div>
+                        <div class="container5">
+                            <div id="one">
+                                <div class="intro">
+                                    Suivez nous sur les réseaux sociaux !
+                                </div>
+                            </div>
+                            <div id="two">
+                                <div class="socials">
+                                    <img id="linkedin" src="logo_linkedin.png" alt="logo-linkedin">
+                                    <img id="twitter" src="logo_twitter.png" alt="logo-twitter">
+                                    <img id="facebook" src="logo_facebook.png" alt="logo-facebook">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
 </body>
+
 </html>
